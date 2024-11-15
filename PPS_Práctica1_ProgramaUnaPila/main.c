@@ -1,6 +1,5 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <stddef.h>
 #include "include/pila.h"
 
 int main() {
@@ -14,6 +13,6 @@ int main() {
             break;
         }
     }
-	printf("0\n");
+    printf("0\n");
     return 0;
 }
