@@ -16,7 +16,9 @@ void push(int x) {
 }
 
 void mostrar() {
-    for (size_t i = 0; i < number_of_elements; i++) {
+    size_t i;
+
+    for (i = 0; i < number_of_elements; i++) {
         printf("%d ", stack[i]);
     }
     printf("\n");
